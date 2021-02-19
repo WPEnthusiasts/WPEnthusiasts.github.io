@@ -10,7 +10,29 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+hr {
+    border-radius: 5px;
+    border: 1px solid #E51400;
+}
+
 .logo {
     text-align: center;
     font-weight: 100;
+}
+
+nav {
+    background-color: lightgray;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav .selected {
+    color: #E51400;
 }
