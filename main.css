@@ -1,0 +1,16 @@
+body {
+    background-color: #E51400;
+}
+
+main {
+    margin: 2%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.logo {
+    text-align: center;
+    font-weight: 100;
+}
