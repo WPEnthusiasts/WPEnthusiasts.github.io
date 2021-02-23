@@ -1,14 +1,20 @@
+@font-face {
+    font-family: 'Segoe WP';
+    font-style: normal;
+    src: local('Segoe WP'), url('SegoeWP.woff') format('woff');
+}
+	
 body {
     background-color: #E51400;
-	    font-family: Verdana, Geneva, Tahoma, sans-serif
-
+	font-family: Segoe WP;
 }
 
 main {
     margin: 2%;
     padding: 10px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
+	border: #bf2213 1px solid;
 }
 
 hr {
@@ -16,24 +22,32 @@ hr {
     border: 1px solid #E51400;
 }
 
-.logo {
-    border-radius: 100%;
-    height: 40px;
-}
-
 header {
     text-align: center;
 }
 
 header h1 {
-margin-top: 0;
+    padding-top: 0;
+    margin: 1px;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    margin: 10px;
 }
 
 nav {
-    background-color: lightgray;
-    border-radius: 10px;
-    font-size: 22px;
-    text-align: center;
+	text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
@@ -41,11 +55,12 @@ nav li {
     list-style-type: none;
     font-weight: bold;
     margin-right: 10px;
-	    overflow: hidden;
+    overflow: hidden;
 }
 
 nav a {
     color: black;
+	display:inline-block;
     text-decoration: none;
 }
 
@@ -64,6 +79,6 @@ a:hover {
 }
 
 footer {
-text-align: center;
-color: white;
+    text-align: center;
+    color: white;
 }
