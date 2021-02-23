@@ -5,8 +5,8 @@
 }
 	
 body {
-    background-color: #E51400;
-	font-family: Segoe WP;
+    background-color: #e60c00;
+    font-family: Segoe WP;
 }
 
 main {
@@ -14,12 +14,12 @@ main {
     padding: 10px;
     background-color: white;
     border-radius: 5px;
-	border: #bf2213 1px solid;
+    border: #bf2213 1px solid;
 }
 
 hr {
     border-radius: 5px;
-    border: 1px solid #E51400;
+    border: 1px solid #e60c00;
 }
 
 header {
@@ -60,17 +60,17 @@ nav li {
 
 nav a {
     color: black;
-	display:inline-block;
+    display:inline-block;
     text-decoration: none;
 }
 
 .selected {
-    color: #E51400;
+    color: #e60c00;
 }
 
 a,
 a:visited {
-    color: #E51400;
+    color: #e60c00;
     text-decoration: none;
 }
 
